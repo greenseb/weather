@@ -1,5 +1,12 @@
+html, body {
+  min-height: 100%;
+}
+
 body {
-  background: #e3f0fa;
+  background: rgb(134, 218, 255);
+  background: linear-gradient(41deg, rgba(134, 218, 255, 1) 0%, rgba(153, 222, 255, 1) 20%, rgba(174, 229, 255, 1) 40%, rgba(208, 240, 255, 1) 60%, rgba(231, 247, 255, 1) 78%, rgba(255, 255, 255, 1) 95%);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   letter-spacing: 0.2em;
   font-size: 0.8em;
 }
